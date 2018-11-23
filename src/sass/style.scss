@@ -6,10 +6,9 @@
     display: none;
   }
 }
-
 .select-selected {
   background-color: #fff;
-  box-shadow: 1px 2px 6px -1px rgba(0,0,0,0.75);
+  box-shadow: 1px 2px 6px -1px rgba(0, 0, 0, 0.75);
 
   &:after {
     position: absolute;
@@ -26,15 +25,14 @@
     top: 7px;
   }
 }
-
-.select-items div,.select-selected {
+.select-items div,
+.select-selected {
   color: #999;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent rgba(0, 0, 0, 0.1) transparent rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-
 .select-items {
   position: absolute;
   background-color: #fff;
@@ -43,22 +41,21 @@
   right: 0;
   z-index: 99;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
- 
+
   div:nth-child(4) {
-    box-shadow: -1px 8px 8px -7px rgba(0,0,0,0.75);
-  } 
+    box-shadow: -1px 8px 8px -7px rgba(0, 0, 0, 0.75);
+  }
   div:last-child {
-    box-shadow: -1px 8px 8px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 8px 8px -7px rgba(0, 0, 0, 0.75);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 5px;
   }
 }
-
 .select-hide {
   display: none;
 }
-
-.select-items div:hover, .same-as-selected {
+.select-items div:hover,
+.same-as-selected {
   color: rgba(0, 0, 255, 1);
   background-color: rgba(0, 0, 255, 0.1);
 }
